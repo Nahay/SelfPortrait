@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-jss": "^10.9.2",
+    "sass": "^1.55.0",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "eslint": "8.24.0",
