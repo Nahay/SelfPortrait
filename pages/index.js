@@ -30,7 +30,7 @@ export default function Home() {
                 <title>Lily Barberou | Mon Autoportrait</title>
             </Head>
 
-            {/* <Loader /> */}
+            <Loader />
             <HorizontalWrapper />
         </div>
     );
