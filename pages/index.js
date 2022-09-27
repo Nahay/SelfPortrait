@@ -31,6 +31,7 @@ export default function Home() {
             </Head>
 
             <Loader />
+            <span id="musique-cursor">Clique sur une musique !</span>
             <HorizontalWrapper />
         </div>
     );

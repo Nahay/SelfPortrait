@@ -14,24 +14,6 @@ const useStyle = createUseStyles({
         '@media (min-width: 600px)': {
             flexDirection: 'row',
         },
-
-        '& #musique-cursor': {
-            position: 'absolute',
-            padding: '10px 20px',            
-            background: 'salmon',
-            zIndex: '10',
-            fontSize: '14px',
-            fontFamily: 'Poppins',
-            opacity: '0',
-            transition: '.3s opacity',
-            whiteSpace: 'nowrap'
-        },
-
-        '&:hover': {
-            '& #musique-cursor': {
-                opacity: '1'
-            }
-        }
     },
     text: {
         display: 'flex',
@@ -100,16 +82,19 @@ const Musique = () => {
         let cursor = document.querySelector('#musique-cursor');
         
         const onMouseMove = (e) =>{
-            cursor.style.left = e.pageX + 'px';
-            cursor.style.top = e.pageY + 'px';
+            cursor.style.left = (e.pageX + 20) + 'px';
+            cursor.style.top = (e.pageY + 15) + 'px';
         }
-        
+
+        const toggleOpacity = (val) => cursor.style.opacity = val;
+
+        container.addEventListener('mouseover', () => toggleOpacity(1));
+        container.addEventListener('mouseout', () => toggleOpacity(0));
         container.addEventListener('mousemove', onMouseMove);
     }, []);
 
     return (
         <div className={classes.container} id="musique">
-            <span id="musique-cursor">Clique sur une musique !</span>
             <div className={`${classes.text} title`}>
                 <h2>MUSICOPHILE</h2>
                 <p>Sauf du reggae</p>

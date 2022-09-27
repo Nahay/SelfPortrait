@@ -10,6 +10,11 @@ const useStyle = createUseStyles({
         '& p': {
             whiteSpace: 'nowrap',
             cursor: 'pointer',
+            transition: '.3s color',
+
+            '&:hover': {
+                color: 'var(--color-pink)'
+            }
         },
 
         '@media (min-width: 600px)': {
