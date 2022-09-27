@@ -20,7 +20,7 @@
 
 ### Technology
 
--   [React](https://reactjs.org/)
+-   [NextJs](https://nextjs.org/)
 
 <br/>
 
