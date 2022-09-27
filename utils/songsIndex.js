@@ -20,7 +20,7 @@ export const songs = [
         title: 'Aimer - Re I Am',
     },
     {
-        file: 'static/songs/shookOnes.mp3',
+        file: 'static/songs/ShookOnes.mp3',
         title: 'Mobb Deep - Shook Ones',
     },
     {
