@@ -129,7 +129,8 @@ const useStyle = createUseStyles({
             },
             '& img:nth-child(6)': {
                 width: '560px',
-                height: '90%',
+                height: 'auto',
+                maxHeight: '100%',
                 right: 'unset',
                 top: '0',
                 left: '1650px',
@@ -137,7 +138,8 @@ const useStyle = createUseStyles({
             },
             '& img:nth-child(7)': {
                 width: '520px',
-                height: '90%',
+                height: 'auto',
+                maxHeight: '100%',
                 top: 'unset',
                 bottom: '0',
                 left: '2250px',

@@ -52,6 +52,7 @@ const useStyle = createUseStyles({
         },
         '& > img:nth-child(7)': {
             width: '70px',
+            height: 'auto',
             top: '35%',
             right: '20%',
             transform: 'rotate(90deg)',

@@ -41,7 +41,7 @@ const useStyle = createUseStyles({
 
             '& img:first-child': {
                 height: '100%',
-                width: '650px',
+                width: 'auto',
                 right: '220px',
                 zIndex: '0',
                 marginLeft: '110px',
