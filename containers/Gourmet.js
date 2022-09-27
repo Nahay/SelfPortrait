@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Image from 'next/future/image';
 import { createUseStyles } from 'react-jss';
 
-import { Glace, Pho } from '../assets/images';
+import { Glace, Pho } from '../utils/imagesIndex';
 import Info from '../components/Info';
 import proportionalStyle from '../utils/ProportionalStyle';
 

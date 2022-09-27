@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
-import { songs } from '../assets/songsList';
+import { songs } from '../utils/songsIndex';
 import MusicPlayer from '../components/MusicPlayer';
 import proportionalStyle from '../utils/ProportionalStyle';
 

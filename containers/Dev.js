@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import { Dev1, Dev2, Dev3, Dev4 } from '../assets/images';
+import { Dev1, Dev2, Dev3, Dev4 } from '../utils/imagesIndex';
 import Image from 'next/future/image';
 
 const useStyle = createUseStyles({

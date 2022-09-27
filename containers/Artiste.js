@@ -1,7 +1,7 @@
 import Image from 'next/future/image';
 import { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
-import * as i from '../assets/images';
+import * as i from '../utils/imagesIndex';
 import Info from '../components/Info';
 import proportionalStyle from '../utils/ProportionalStyle';
 

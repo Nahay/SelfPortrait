@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
 import Image from 'next/future/image';
-import { Totoro, Bouba } from '../assets/images';
+import { Totoro, Bouba } from '../utils/imagesIndex';
 import Info from '../components/Info';
 import proportionalStyle from '../utils/ProportionalStyle';
 
