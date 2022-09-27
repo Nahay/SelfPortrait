@@ -1,44 +1,42 @@
-import * as a from './songs';
-
 export const songs = [
     {
-        file: a.AfterYou,
+        file: 'songs/AfterYou.mp3',
         title: 'Meg Myers - After You',
     },
     {
-        file: a.DownTheRoad,
+        file: 'songs/DownTheRoad.mp3',
         title: 'C2C - Down The Road',
     },
     {
-        file: a.Maniac,
+        file: 'songs/Maniac.mp3',
         title: 'Flashdance - Maniac',
     },
     {
-        file: a.MrGendai,
+        file: 'songs/MrGendaiSpeaker.mp3',
         title: 'One OK Rock - Mr Gendai Speaker',
     },
     {
-        file: a.ReIAm,
+        file: 'songs/ReIAm.mp3',
         title: 'Aimer - Re I Am',
     },
     {
-        file: a.ShookOnes,
+        file: 'songs/shookOnes.mp3',
         title: 'Mobb Deep - Shook Ones',
     },
     {
-        file: a.Showbiz,
+        file: 'songs/Showbiz.mp3',
         title: 'Muse - Showbiz',
     },
     {
-        file: a.Teardrop,
+        file: 'songs/Teardrop.mp3',
         title: 'Massive Attack - Teardrop',
     },
     {
-        file: a.ThisIsWhat,
+        file: 'songs/ThisIsWhatMakesUsGirls.mp3',
         title: 'Lana Del Rey - This Is What Makes Us Girl',
     },
     {
-        file: a.TurningTables,
+        file: 'songs/TurningTables.mp3',
         title: 'Adele - Turning Tables',
     },
 ];
