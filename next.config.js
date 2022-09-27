@@ -7,6 +7,10 @@ const nextConfig = {
             allowFutureImage: true,
         },
     },
+    i18n: {
+        locales: ['fr'],
+        defaultLocale: 'fr',
+    },
     webpack(config, options) {
         config.module.rules.push({
             test: /\.mp3$/,
