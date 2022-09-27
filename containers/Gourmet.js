@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
-import { createUseStyles } from 'react-jss';
 import Image from 'next/future/image';
-import { Glace150, Glace300, Pho800 } from '../assets/images';
+import { createUseStyles } from 'react-jss';
+
+import { Glace, Pho } from '../assets/images';
 import Info from '../components/Info';
 import proportionalStyle from '../utils/ProportionalStyle';
 
@@ -20,8 +21,8 @@ const useStyle = createUseStyles({
         },
 
         '& img:nth-child(2)': {
-            width: 'fit-content',
-            height: 'fit-content',
+            width: '150px',
+            height: '200px',
             alignSelf: 'flex-end',
             marginRight: '5%',
             transform: 'translateY(-100px)',
@@ -44,11 +45,13 @@ const useStyle = createUseStyles({
                 marginLeft: '110px',
                 zIndex: '0',
                 order: 'unset',
-                width: 'fit-content',
-                height: 'fit-content',
+                width: '800px',
+                height: '600px',
             },
 
             '& img:nth-child(2)': {
+                width: '300px',
+                height: '480px',
                 zIndex: '1',
                 bottom: '0',
                 right: '-222px',
@@ -115,8 +118,8 @@ const Gourmet = () => {
 
     return (
         <section className={classes.container} id="gourmet">
-            <Image className="bnw" src={Pho800} alt="Pho" width={800} height={600} id="pho" />
-            <Image className="bnw" src={Glace300} alt="Glace" width={300} height={480} id="ice" />
+            <Image className="bnw" src={Pho} alt="Pho" width={800} height={600} />
+            <Image className="bnw" src={Glace} alt="Glace" width={300} height={480} />
             <div className={classes.text}>
                 <h2>GOURMET</h2>
                 <Info text="Phô > Couscous > all" />

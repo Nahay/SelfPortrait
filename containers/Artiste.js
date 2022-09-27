@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/future/image';
 import { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
 import * as i from '../assets/images';
@@ -189,13 +189,13 @@ const Artiste = () => {
             <h2>ARTISTE</h2>
             <div className={classes.drawings} id="drawings">
                 <Info text="Euh... On a tous eu des débuts compliqués." />
-                <Image className="bnw" src={i.Dessin1_240} width="240" height="" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin2_240} width="240" height="" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin3_500} width="500" height="196" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin4_500} width="500" height="500" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin5} width="" height="" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin6} width="" height="" alt="Dessin" />
-                <Image className="bnw" src={i.Dessin7_650} width="650" height="438" alt="Dessin" />
+                <Image className="bnw" src={i.Dessin1} width={240} height="auto" alt="Dessin" />
+                <Image className="bnw" src={i.Dessin2} width={240} height="auto" alt="Dessin" />
+                <Image className="bnw" src={i.Dessin3} width={500} height={196} alt="Dessin" />
+                <Image className="bnw" src={i.Dessin4} width={500} height={500} alt="Dessin" />
+                <Image className="bnw" src={i.Dessin5} alt="Dessin" />
+                <Image className="bnw" src={i.Dessin6} alt="Dessin" />
+                <Image className="bnw" src={i.Dessin7} width={650} height={438} alt="Dessin" />
             </div>
         </div>
     );

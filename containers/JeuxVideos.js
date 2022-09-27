@@ -1,7 +1,7 @@
 import { createUseStyles } from 'react-jss';
 import Info from '../components/Info';
-import { Pho800 as Pho } from '../assets/images';
-import Image from 'next/image';
+import { Pho } from '../assets/images';
+import Image from 'next/future/image';
 import { useEffect } from 'react';
 import proportionalStyle from '../utils/ProportionalStyle';
 
@@ -10,6 +10,7 @@ const useStyle = createUseStyles({
         width: '100%',
         position: 'relative',
         display: 'flex',
+        alignItems: 'center',
         gap: '50px',
 
         '& img': {
@@ -81,8 +82,8 @@ const JeuxVideos = () => {
                 <Info text="Aux jeux vidéos, tous. Sauf les FPS." />
                 <Info text="LILY.GEEK = 100" />
             </div>
-            <Image className="bnw" src={Pho} alt="En train de jouer" width="" height="100%" />
-            <Image className="bnw" src={Pho} alt="Game Over" width="" height="100%" />
+            <Image className="bnw" src={Pho} alt="En train de jouer" width="auto" height="100%" />
+            <Image className="bnw" src={Pho} alt="Game Over" width="auto" height="100%" />
         </div>
     );
 };

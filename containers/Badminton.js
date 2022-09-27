@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss';
 import Info from '../components/Info';
 import * as i from '../assets/images';
 import { useEffect } from 'react';
-import Image from 'next/image';
+import Image from 'next/future/image';
 import proportionalStyle from '../utils/ProportionalStyle';
 
 const useStyle = createUseStyles({
@@ -156,10 +156,10 @@ const Badminton = () => {
             <h2>ADDICTE</h2>
             <Info text="Au sport, enfin juste au badminton." />
             <Info text="LILY.SPORTIVE = 0" />
-            <Image className="bnw" src={i.Racket360} alt="Racket" width={360} height={360} />
-            <Image className="bnw" src={i.Racket300} alt="Racket" width={300} height={300} />
-            <Image className="bnw" src={i.Volant140} alt="Volant" width={140} height={126} />
-            <Image className="bnw" src={i.NVolant195} alt="Volant" width={195} height={204} />
+            <Image className="bnw" src={i.Racket} alt="Racket" width={360} height={360} />
+            <Image className="bnw" src={i.Racket} alt="Racket" width={300} height={300} />
+            <Image className="bnw" src={i.Volant} alt="Volant" width={140} height={126} />
+            <Image className="bnw" src={i.Volant2} alt="Volant" width={195} height={204} />
         </div>
     );
 };

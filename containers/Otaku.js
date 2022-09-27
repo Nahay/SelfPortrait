@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
 import Image from 'next/future/image';
-import { Totoro, Bouba270 } from '../assets/images';
+import { Totoro, Bouba } from '../assets/images';
 import Info from '../components/Info';
 import proportionalStyle from '../utils/ProportionalStyle';
 
@@ -21,8 +21,8 @@ const useStyle = createUseStyles({
         },
         '& img:nth-child(2)': {
             order: '3',
-            width: 'fit-content',
-            height: 'fit-content',
+            width: '120px',
+            height: '170px',
             position: 'absolute',
             transform: 'translate(45px, 100px)',
         },
@@ -40,15 +40,17 @@ const useStyle = createUseStyles({
             },
 
             '& img:first-child': {
+                height: '100%',
+                width: '650px',
                 right: '220px',
                 zIndex: '0',
                 marginLeft: '110px',
-                height: '100%',
-                width: '650px',
                 order: 'unset',
             },
 
             '& img:nth-child(2)': {
+                width: '270px',
+                height: '360px',
                 bottom: '40px',
                 left: '0',
                 zIndex: '1',
@@ -123,7 +125,7 @@ const Otaku = () => {
     return (
         <section className={classes.container} id="otaku">
             <Image className="bnw" src={Totoro} alt="Totoro" width={650} height={800} />
-            <Image className="bnw" src={Bouba270} alt="Bouba" width={270} height={360} />
+            <Image className="bnw" src={Bouba} alt="Bouba" width={270} height={360} />
             <div className={classes.text}>
                 <h2>OTAKU</h2>
                 <Info text="Bouba = meilleure peluche" />

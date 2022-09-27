@@ -16,10 +16,7 @@ export default function Home() {
 
                 <meta property="og:title" content="Lily Barberou | Mon Autoportrait" />
                 <meta property="og:description" content="Présentation de mon autoportrait sous forme de site internet" />
-                <meta
-                    property="og:image"
-                    content="https://raw.githubusercontent.com/Nahay/Assets/master/Selfportrait/banner.png"
-                />
+                <meta property="og:image" content="https://raw.githubusercontent.com/Nahay/Assets/master/Selfportrait/banner.png" />
                 <meta property="og:url" content="https://autoportrait.lilybarberou.fr/" />
                 <meta property="og:type" content="website" />
 
@@ -27,16 +24,13 @@ export default function Home() {
                 <meta name="twitter:creator" content="@Takestla" />
                 <meta name="twitter:title" content="Lily Barberou | Mon Autoportrait" />
                 <meta name="twitter:description" content="Présentation de mon autoportrait sous forme de site internet" />
-                <meta
-                    name="twitter:image"
-                    content="https://raw.githubusercontent.com/Nahay/Assets/master/Selfportrait/banner.png"
-                />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/Nahay/Assets/master/Selfportrait/banner.png" />
 
                 <meta name="description" content="Présentation de mon autoportrait sous forme de site internet" />
                 <title>Lily Barberou | Mon Autoportrait</title>
             </Head>
 
-            <Loader />
+            {/* <Loader /> */}
             <HorizontalWrapper />
         </div>
     );

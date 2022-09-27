@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import { Dev1, Dev2, Dev3, Dev4 } from '../assets/images';
-import Image from 'next/image';
+import Image from 'next/future/image';
 
 const useStyle = createUseStyles({
     container: {
@@ -19,21 +19,25 @@ const useStyle = createUseStyles({
         },
         '& img:nth-child(2)': {
             width: '60%',
+            height: 'fit-content',
             top: '100px',
             left: '0',
         },
         '& img:nth-child(3)': {
             width: '60%',
+            height: 'fit-content',
             top: '220px',
             right: '0',
         },
         '& img:nth-child(4)': {
             width: '60%',
+            height: 'fit-content',
             top: '310px',
             left: '0',
         },
         '& img:nth-child(5)': {
             width: '60%',
+            height: 'fit-content',
             top: '400px',
             right: '0',
         },
@@ -84,10 +88,10 @@ const Dev = () => {
     return (
         <div className={classes.container} id="dev">
             <h2>DEV</h2>
-            <Image className="bnw" src={Dev1} width="" height="" alt="Dev" />
-            <Image className="bnw" src={Dev2} width="" height="" alt="Dev" />
-            <Image className="bnw" src={Dev3} width="" height="" alt="Dev" />
-            <Image className="bnw" src={Dev4} width="" height="" alt="Dev" />
+            <Image className="bnw" src={Dev1} alt="Dev" />
+            <Image className="bnw" src={Dev2} alt="Dev" />
+            <Image className="bnw" src={Dev3} alt="Dev" />
+            <Image className="bnw" src={Dev4} alt="Dev" />
         </div>
     );
 };
