@@ -18,3 +18,6 @@ export { default as Dev1 } from '../public/static/images/dev1.png';
 export { default as Dev2 } from '../public/static/images/dev2.png';
 export { default as Dev3 } from '../public/static/images/dev3.png';
 export { default as Dev4 } from '../public/static/images/dev4.png';
+
+export { default as EldenRing } from '../public/static/images/elden-ring.jpg';
+export { default as HollowKnight } from '../public/static/images/hollow-knight.jpg';

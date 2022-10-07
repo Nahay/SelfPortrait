@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import Info from '../components/Info';
-import { Pho } from '../utils/imagesIndex';
+import { EldenRing, HollowKnight } from '../utils/imagesIndex';
 import Image from 'next/future/image';
 import { useEffect } from 'react';
 import proportionalStyle from '../utils/ProportionalStyle';
@@ -82,8 +82,8 @@ const JeuxVideos = () => {
                 <Info text="Aux jeux vidéos, tous. Sauf les FPS." />
                 <Info text="LILY.GEEK = 100" />
             </div>
-            <Image className="bnw" src={Pho} alt="En train de jouer" width="auto" height="100%" />
-            <Image className="bnw" src={Pho} alt="Game Over" width="auto" height="100%" />
+            <Image className="bnw" src={EldenRing} alt="Elden Ring" width="auto" height="100%" />
+            <Image className="bnw" src={HollowKnight} alt="Hollow Knight" width="auto" height="100%" />
         </div>
     );
 };
