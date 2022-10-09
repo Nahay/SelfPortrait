@@ -1,5 +1,13 @@
 export const songs = [
     {
+        file: 'static/songs/MrGendaiSpeaker.mp3',
+        title: 'One OK Rock - Mr Gendai Speaker',
+    },
+    {
+        file: 'static/songs/ReIAm.mp3',
+        title: 'Aimer - Re I Am',
+    },
+    {
         file: 'static/songs/AfterYou.mp3',
         title: 'Meg Myers - After You',
     },
@@ -10,14 +18,6 @@ export const songs = [
     {
         file: 'static/songs/Maniac.mp3',
         title: 'Flashdance - Maniac',
-    },
-    {
-        file: 'static/songs/MrGendaiSpeaker.mp3',
-        title: 'One OK Rock - Mr Gendai Speaker',
-    },
-    {
-        file: 'static/songs/ReIAm.mp3',
-        title: 'Aimer - Re I Am',
     },
     {
         file: 'static/songs/ShookOnes.mp3',
